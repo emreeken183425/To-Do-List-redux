@@ -13,12 +13,13 @@ function App() {
   return (
     <div className="app">
       <Provider store={store}>
-        <Todo />
+          <Todo />
         {/* <Counter /> */}
-        
+
+       
       </Provider>
     </div>
   );
-} 
+}
 
 export default App;
