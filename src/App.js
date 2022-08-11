@@ -13,8 +13,9 @@ function App() {
   return (
     <div className="app">
       <Provider store={store}>
-        <Counter />
-        {/* <Todo /> */}
+        <Todo />
+        {/* <Counter /> */}
+        
       </Provider>
     </div>
   );
